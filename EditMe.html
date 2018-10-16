@@ -2,11 +2,16 @@
 <html lang="en-US">
 <head>
 	<title>
-		Editable Page Text
+
+
+		Please... Edit Me
+		My second edit
+
 	</title>
 </head>
 
 <body>
+
 	<h1>Heading of the Page</h1>
 	<p id="edit">This is sample text. Communism will win.</p>
 
@@ -18,13 +23,17 @@
 		let random = Math.floor(Math.random() * 10);
 		let doc = document.getElementById("edit");
 		if (random < 2)
+
 			doc.innerHTML = "Lenin";
 		else if (random < 4)
 			doc.innerHTML = "Trotsky";
 		else if (random < 6)
 			doc.innerHTML = "Engels";
+
 		else if (random < 10)
 			doc.innerHTML = "Marx";
 	}
 </script>
+
 </html>
+
