@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
 	<title>
-		Please... Edit Me
+		Editable Page Text
 	</title>
 </head>
 
@@ -10,7 +10,7 @@
 	<h1>Edit anything on this page</h1>
 	<p id="edit">This is sample text. Communism will win.</p>
 
-	<button onclick="edit()">You can edit this also</button>
+	<button onclick="edit()">Generate a communist!</button>
 </body>
 
 <script>
@@ -18,15 +18,13 @@
 		let random = Math.floor(Math.random() * 10);
 		let doc = document.getElementById("edit");
 		if (random < 2)
-			doc.innerHTML = "Foo";
+			doc.innerHTML = "Lenin";
 		else if (random < 4)
-			doc.innerHTML = "Bar";
+			doc.innerHTML = "Trotsky";
 		else if (random < 6)
-			doc.innerHTML = "Baz";
-		else if (random < 8)
-			doc.innerHTML = "Qux";
+			doc.innerHTML = "Engels";
 		else if (random < 10)
-			doc.innerHTML = "Lar";
+			doc.innerHTML = "Marx";
 	}
 </script>
 </html>
